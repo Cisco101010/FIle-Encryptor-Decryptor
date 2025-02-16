@@ -2,7 +2,6 @@
 
 Writting in python 
 - ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-- **Python**
 
 
 This Python program allows you to encrypt and decrypt files in a specified directory using the cryptography library.
