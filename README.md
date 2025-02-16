@@ -18,13 +18,13 @@ This Python program allows you to encrypt and decrypt files in a specified direc
 Install the required dependencies by running the following command:
 
 ```shell
-pip install -r requirements.txt
-Usage
-Run the program by executing the following command in your terminal:
+$ pip install -r requirements.txt
+```
 
-shell
-Copy code
-python encrypt.py
+#Run encryptor
+```
+$ python encrypt.py
+```
 Provide the path to the directory you want to encrypt when prompted.
 
 Enter the encryption password when prompted.
@@ -37,9 +37,10 @@ To decrypt the encrypted files:
 
 Run the program by executing the following command in your terminal:
 
-shell
-Copy code
-python decrypt.py
+Run decryptor
+```
+$ python decrypt.py
+```
 Provide the path to the directory containing the encrypted files when prompted.
 
 Enter the decryption password when prompted.
@@ -57,36 +58,24 @@ Please note that file encryption and decryption should be used responsibly and i
 
 
 install ("linux") install git sudo apt-get install git 
-
-        git clone https://github.com/Cisco101010/Ransomware
-
-        cd Ransomware
-
-        pip install -r requirements.txt
-
-        chmod +x encrypt.py 
-
-        chmod +x decrypt.py
-
-        python3 encrypt.py
-
-        python3 decrypt.py
-
-
-
-
+```
+$ git clone https://github.com/Cisco101010/FIle-Encryptor-Decryptor
+$ cd FIle-Encryptor-Decryptor
+$ pip install -r requirements.txt
+$ chmod +x encrypt.py 
+$ chmod +x decrypt.py
+$ python3 encrypt.py
+$ python3 decrypt.py
+```
 
 install ("Windows")   install gitbash https://git-scm.com/downloads
-                 
-                      git clone https://github.com/Cisco101010/Ransomware
-
-                      cd Ransomware
-
-                      pip install -r requirements.txt
-
-                      python encrypt.py
-
-                      python decrypt.py
+```
+$ git clone https://github.com/Cisco101010/FIle-Encryptor-Decryptor
+$ cd FIle-Encryptor-Decryptor
+$ pip install -r requirements.txt
+$ python encrypt.py
+$ python decrypt.py
+```
 
 
 
